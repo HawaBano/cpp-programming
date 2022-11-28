@@ -12,7 +12,7 @@ int main()
 		int j=0;
 		for(j=0;j<=l;j++)
 		{
-			cout<<alpha<<"\n ";
+			cout<<alpha<<endl;
 			alpha++;
 		}
 	

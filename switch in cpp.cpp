@@ -2,36 +2,36 @@
 using namespace std;
 int main()
 {
-		char flag='y';
-		while(flag=='y' || flag=='Y')
-	
+	char flag='y';
+	while(flag=='y' || flag=='Y')
 	{
-	 int n;
-	cout<<"please enter number of weak";
+		system("cls");
+	 	int n;
+	cout<<"please enter number of day";
 	cin>>n;
 	switch(n)
 		{
-		   case 1:
+		   	case 1:
 				cout<<"its sunday";
 				break;
-		   case 2:
+		   	case 2:
 				cout<<"its monday";
 				break;
-		   case 3:
+		   	case 3:
 				cout<<"its tuesday";
 				break;
-	       case 4:
+	       	case 4:
 		 		cout<<"its wednesday";
 		 		break;
-	   	   case 5:
+	   	   	case 5:
 				cout<<"its thusday";
 				break;
-	   	   case 6:
+	   	   	case 6:
 				cout<<"its friday";
 				break;
-		  case 7:
+		  	case 7:
 				cout<<"its saturday";
-		  default:
+		  	default:
 				cout<<"you enter invalid number ";
 		}
 	cout<<"\n\ndo you want to continue this \n press y to contonue and press any other key to stop it ";

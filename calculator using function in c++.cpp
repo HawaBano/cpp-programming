@@ -1,38 +1,26 @@
 #include<iostream>
 using namespace std;
 void Add();
-void Sub();
+void sub();
 void multi();
 void choicemaker();
-
 int main()
 {
 	choicemaker();
 }
-
 void choicemaker()
 {
 	int choice;
 	cout<<"enter 1:add\n 2:sub\n 3:multi\n";
 	cin>>choice;
-	
-	if(choice==1)
-	{
-		Add();
-	}
-	else if(choice==2)
-	{
-		Sub();
-	}
-	else if(choice==3)
-	{
-		multi();
-	}
+	if(a+b)
+	Add();
+	else if(a-b)
+	sub();
+	else if(a*b)
+	multi();
 	else
-	{
-		cout<<"you enter invalid operator";
-
-	}
+	cout<<"you enter invalid operator";
 }
 void Add()
 {
@@ -51,10 +39,10 @@ void Sub()
 	cin>>a;
 	int b;
 	cout<<"enter the value of b";
-	cin>>b;
-	cout<<a-b;
+	cin>>valueTwo;
+	cout<<va-b;
 }
-void multi()
+void Multi()
 {
 	int a;
 	cout<<"enter the value of a";
@@ -62,6 +50,6 @@ void multi()
 	int b;
 	cout<<"enter the value of b";
 	cin>>b;
-	cout<<a*b;
+	cout<<a*b
 }
 
